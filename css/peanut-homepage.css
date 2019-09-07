@@ -4,10 +4,80 @@ body{
 }
 
 section {
-    max-width: 1300px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
 /* HEADER */
 
-hello
+.header__colour {
+    background-color: #ffa9b5;
+}
+
+.header__container {
+    height: 110px;
+
+}
+
+.header__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.header__logo__flex__1 {
+
+}
+
+.header__logo__flex {
+    display: flex;
+}
+
+.logo {
+    color: black;
+}
+
+.menu__nav__right {
+
+}
+
+.header__menu__nav__ul {
+    display: flex;
+    align-items: center;
+}
+
+.header__menu__nav__li a{
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.apple__button {
+    background-color: black;
+    width: 170px;
+    height: 45px;
+    color: white;
+    border-radius: 5px;
+    padding: 22px 50px 0px 50px;
+    border: solid black;
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+}
+
+.android__button {
+    background-color: black;
+    width: 170px;
+    height: 45px;
+    color: white;
+    border-radius: 5px;
+    padding: 22px 50px 0px 50px;
+    border: solid black;
+
+}
+
+
+
+
+
