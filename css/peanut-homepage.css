@@ -77,5 +77,52 @@ section {
 
 }
 
+.hero__container {
+    border: 1px solid red;
+    height: 770px;
+}
+
+.hero__h1 {
+    font-size: 78px;
+    font-weight: bold;
+    letter-spacing: -2.8px;
+    line-height: 0.96;
+    margin: 
+}
+
+.span__hero__h1 {
+    color: white;
+}
+
+.hero__p {
+    padding: 25px 0 25px 0;
+    font-size: 22px;
+    line-height: 1.36;
+}
+
+
+
+.hero__apple__button {
+    background-color: #fe5055;
+    width: 170px;
+    height: 45px;
+    color: white;
+    border-radius: 5px;
+    padding: 22px 50px 0px 50px;
+    border: solid #fe5055;
+    margin: 0 10px 0 0px;
+    text-decoration: none;
+}
+
+.hero__android__button {
+    background-color: #fe5055;
+    width: 170px;
+    height: 45px;
+    color: white;
+    border-radius: 5px;
+    padding: 22px 50px 0px 50px;
+    border: solid #fe5055;
+
+}
 
 
