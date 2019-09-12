@@ -82,8 +82,8 @@ section {
     height: 770px;
 }
 
-.hero__grid {
-    
+.hero__flex {
+    display: flex;
 }
 
 .hero__h1 {
@@ -134,17 +134,12 @@ section {
     height: 465px;
     background-image:url('https://www.peanut-app.io/images/home/hero-android.png');
     background-size: cover;
-    position: absolute;
-    top: 48.3333%;
-    left: 26.5%;
+
 }
 
 
 .hero__video {
     box-sizing: border-box;
-    position: absolute;
-    top: 10%;
-    left: 1.5%;
     width: 96.5%;
     height: 77.6%;
     
@@ -160,9 +155,8 @@ section {
     width: 260px;
     height: 532px;
     box-sizing: border-box;
-    position: absolute;
-    top: 44.3333%;
-    left: 11.5%;
+  
+    
 }
 
 
