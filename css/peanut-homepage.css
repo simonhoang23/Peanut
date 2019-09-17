@@ -183,6 +183,11 @@ section {
 
 }
 
+/* COMMUNITY REVIEW */
+
+.community__review__container {
+    border: 1px solid red;
+}
 
 
 
