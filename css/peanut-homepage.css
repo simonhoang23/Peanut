@@ -189,7 +189,25 @@ section {
     border: 1px solid red;
 }
 
+.community__review__grid {
 
+}
+
+.community__review__h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.community__review__anime {
+    display: inline-block;
+    width: 60px;
+    height: 38px;
+    vertical-align: middle;
+    margin-left: 12px;
+    background-image: url(https://www.peanut-app.io/assets/animations/small_grey-39796c614dc389db4433b09622d070e7df00252a84d66e46c0edb5835b81c1ee.gif);
+    background-size: cover;
+}
 
 
 
