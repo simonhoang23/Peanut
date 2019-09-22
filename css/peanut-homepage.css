@@ -186,11 +186,17 @@ section {
 /* COMMUNITY REVIEW */
 
 .community__review__container {
-    border: 1px solid red;
+    
+    margin-top: 50px;
 }
 
 .community__review__grid {
-
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 7em; */
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
 
 .community__review__h3 {
@@ -200,6 +206,7 @@ section {
     font-size: 24px;
     font-weight: bold;
     white-space: pre;
+    margin-bottom: 30px;
 }
 
 .community__review__anime {
@@ -212,5 +219,75 @@ section {
     background-size: cover;
 }
 
+.block__1 {
+    
+    max-width: 293px;
+}
 
+.community__review__p {
+    background-color: #fe5055;
+    padding: 2px;
+    width: 81px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 100px;
+    position: relative;
+    top: 8px;
+    
+}
 
+.community__review__image {
+    height: 220px;
+}
+
+.community__review__image__2 {
+display: flex;
+filter: blur(2px);
+width: 40px;
+border-radius: 50%;
+margin: 10px 0 10px 120px;
+}
+
+.pin {
+    color: #87949d;
+    margin-right: 5px;
+}
+
+.pin__p {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.community__review__h3__2 {
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    margin: 17px 0px;
+}
+
+.community__review__p__2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.community__review__p__2 a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    color: #fe5055;
+    
+}
+
+.heart__speech__p {
+    display: flex;
+    justify-content: center;
+    
+}
