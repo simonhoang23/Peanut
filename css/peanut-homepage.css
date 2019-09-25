@@ -291,3 +291,19 @@ margin: 10px 0 10px 120px;
     justify-content: center;
     
 }
+
+.carousel__indicators {
+    display: flex;
+    justify-content: center;
+}
+
+.dot {
+    height: 18px;
+    width: 18px;
+    background-color: #dbdbdb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 50px 10px 50px 10px;
+    
+
+}
