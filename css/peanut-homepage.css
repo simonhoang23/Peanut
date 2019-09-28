@@ -304,6 +304,111 @@ margin: 10px 0 10px 120px;
     border-radius: 50%;
     display: inline-block;
     margin: 50px 10px 50px 10px;
+
+}
+
+
+/* CLIENT LOGO */
+
+.client__logos__container {
+    margin-bottom: 80px;
+}
+
+.client__logos__grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.client__logo__image__size {
+    height: 30px;
+}
+
+/* DISCOVER CHAT COMMUNITY GROUPS */
+
+.discover__chat__community__groups__container {
+   
+}
+
+/* HOW DO YOU CENTER CSS GRIDS? */
+.discover__chat__community__groups__grids {
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+
+}
+
+.discover__chat__community__groups__width {
     
+    max-width: 450px;
+    margin-bottom: 100px;
+}
+
+.discover__chat__community__groups__h1 {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.discover__chat__community__groups__p {
+    font-size: 23px;
+    margin: 10px 0 23px;
+    text-align: center;
+}
+
+.discover__chat__community__groups__image {
+    margin-top: 60px;
+    width: 100%;
+}
+
+/* FEATURED BY APPLE */
+
+.featured__by__apple__container {
+ 
+}
+
+.featured__by__apple__flex {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+
+.featured__by__apple__img {
+    width: 50%;
+}
+
+/* TESTIMONIALS */
+
+.testimonials__container {
+    background-color: #f6cdcc;
+}
+
+.testimonials__flex {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0 80px 0;
+}
+
+.testimonials__p {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    width: 1010px;
+    line-height: 1.1;
+}
+
+.carousel__indicators__2 {
+    display: flex;
+    justify-content: center;
+}
+
+.dot__2 {
+    height: 18px;
+    width: 18px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 50px 10px 50px 10px;
 
 }
