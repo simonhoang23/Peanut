@@ -401,6 +401,7 @@ flex-wrap: wrap;
 .carousel__indicators__2 {
     display: flex;
     justify-content: center;
+    
 }
 
 .dot__2 {
@@ -411,4 +412,34 @@ flex-wrap: wrap;
     display: inline-block;
     margin: 50px 10px 50px 10px;
 
+}
+
+/* TESTIMONIAL 2 */
+
+.testimonial__2__container {
+    background-color: #ffa9b5;
+    padding-top: 100px;
+
+}
+
+.testimonial__grid {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.testimonial__p__parent {
+    padding: 20px 0 0 0;
+    text-align: center;
+    max-width: 328px;
+}
+
+.testimonial__p__text {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.testimonial__logo {
+    width: 60%;
+    margin: 30px;
 }
