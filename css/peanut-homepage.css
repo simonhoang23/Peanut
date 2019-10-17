@@ -323,6 +323,15 @@ margin: 10px 0 10px 120px;
     height: 30px;
 }
 
+/* VIDEO HOW TO ADD A PICTURE FRAME ON VIDEO */
+
+.video__1 {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
 /* DISCOVER CHAT COMMUNITY GROUPS */
 
 .discover__chat__community__groups__container {
@@ -442,4 +451,33 @@ flex-wrap: wrap;
 .testimonial__logo {
     width: 60%;
     margin: 30px;
+}
+
+/* FOOTER */
+
+.footer__colour {
+    background-color: #fff;
+}
+
+.hero__apple__button__white {
+    background-color: #fe5055;
+    width: 170px;
+    height: 45px;
+    color: black;
+    border-radius: 5px;
+    padding: 22px 50px 0px 50px;
+    border: solid #fe5055;
+    margin: 0 20px 0 0px;
+    text-decoration: none;
+}
+
+.hero__android__button__white {
+    background-color: #fe5055;
+    width: 170px;
+    height: 45px;
+    color: black;
+    border-radius: 5px;
+    padding: 22px 50px 0px 50px;
+    border: solid #fe5055;
+
 }
