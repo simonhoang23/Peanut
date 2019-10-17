@@ -456,28 +456,36 @@ flex-wrap: wrap;
 /* FOOTER */
 
 .footer__colour {
-    background-color: #fff;
+    background-color: #000;
+}
+
+.footer__container {
+    border: 1px solid red;
+}
+
+.footer__h2 {
+    color: white;
 }
 
 .hero__apple__button__white {
-    background-color: #fe5055;
+    background-color: #fff;
     width: 170px;
     height: 45px;
     color: black;
     border-radius: 5px;
     padding: 22px 50px 0px 50px;
-    border: solid #fe5055;
+    border: solid #fff;
     margin: 0 20px 0 0px;
     text-decoration: none;
 }
 
 .hero__android__button__white {
-    background-color: #fe5055;
+    background-color: #fff;
     width: 170px;
     height: 45px;
     color: black;
     border-radius: 5px;
     padding: 22px 50px 0px 50px;
-    border: solid #fe5055;
+    border: solid #fff;
 
 }
