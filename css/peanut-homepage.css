@@ -23,6 +23,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-top: 30px;
 }
 
@@ -197,6 +198,7 @@ section {
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
+    flex-wrap: wrap;
 }
 
 .community__review__h3 {
@@ -317,6 +319,7 @@ margin: 10px 0 10px 120px;
 .client__logos__grid {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .client__logo__image__size {
@@ -434,6 +437,7 @@ flex-wrap: wrap;
 .testimonial__grid {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 
 }
 
@@ -514,6 +518,8 @@ flex-wrap: wrap;
     padding-left: 0;
 }
 
+/* FOOTER LINKS */
+
 .footer__links {
     color: white;
     font-size: 16px;
@@ -521,6 +527,7 @@ flex-wrap: wrap;
     display: flex;
     justify-content: center;
     margin-bottom: 60px;
+    flex-wrap: wrap;
 }
 
 .footer__links__space  {
