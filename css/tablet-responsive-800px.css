@@ -1,0 +1,49 @@
+@media only screen and (max-width: 800px){
+    .logo__container__img {
+        
+    }
+
+    .items {
+        max-width: 44%;
+    }
+    .menu__container {
+        justify-content: center;
+        align-self: center;
+        margin-right: 20px;
+    }
+
+    .product__all {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .images__text__main__container {
+        margin-bottom: 70px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .images__left__flex {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .images__left {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
