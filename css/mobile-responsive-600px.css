@@ -53,6 +53,10 @@
         display: none;
     }
 
+    .menu__mobile__container {
+        display: block;
+        background-color: #ffa9b5;
+    }
 
 
 
