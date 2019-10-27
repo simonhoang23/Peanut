@@ -1,0 +1,190 @@
+@media only screen and (max-width: 500px) {
+  .menu__mobile__container {
+    display: block;
+    background-color: #ffa9b5;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+  }
+
+  .header__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 0;
+  }
+
+  .logo {
+    color: #000;
+    margin: 0;
+    display: none;
+  }
+
+  .logo__mobile {
+      display: block;
+      color: #000;
+  }
+
+  .open {
+      color: black;
+  }
+
+  .apple__button {
+    background-color: black;
+    width: 170px;
+    height: 45px;
+    color: white;
+    border-radius: 5px;
+    padding: 22px 50px 0px 50px;
+    border: solid black;
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+    display: none;
+  }
+
+  .apple__icon__space {
+    padding-right: 10px;
+  }
+
+  .android__button {
+    background-color: black;
+    width: 170px;
+    height: 45px;
+    color: white;
+    border-radius: 5px;
+    padding: 22px 50px 0px 50px;
+    border: solid black;
+    display: none;
+  }
+
+  .header__menu__nav__ul {
+    /* display: flex;
+        align-items: start; */
+  }
+
+  .menu__nav__right {
+      
+  }
+
+  .header__menu__nav__ul {
+    display: flex;
+    text-align: center;
+    display: none;
+  }
+
+  .header__menu__nav__li a {
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+  }
+
+
+  /* RIGHT IMAGES */
+
+  .hero__flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero__h1 {
+    font-size: 78px;
+    font-weight: bold;
+    letter-spacing: -2.8px;
+    line-height: 0.96;
+    margin: 
+}
+
+.span__hero__h1 {
+    color: white;
+}
+
+.hero__p {
+    padding: 25px 0 25px 0;
+    font-size: 22px;
+    line-height: 1.36;
+}
+
+.hero__apple__button {
+    background-color: #fe5055;
+    width: 170px;
+    height: 45px;
+    color: white;
+    border-radius: 5px;
+    padding: 22px 50px 0px 50px;
+    border: solid #fe5055;
+    margin: 0 20px 0 0px;
+    text-decoration: none;
+}
+
+.hero__android__button {
+    background-color: #fe5055;
+    width: 170px;
+    height: 45px;
+    color: white;
+    border-radius: 5px;
+    padding: 22px 50px 0px 50px;
+    border: solid #fe5055;
+
+}
+
+  .right__images {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.hero__block__mockup {
+    width: 227px;
+    height: 465px;
+    background-image:url('https://www.peanut-app.io/images/home/hero-android.png');
+    background-size: cover;
+    margin-left: -100px;
+    
+}
+
+.hero__block__mockup__2 {
+    width: 260px;
+    height: 532px;
+    box-sizing: border-box;
+    background-image:url('https://www.peanut-app.io/images/home/hero-android.png');
+    background-size: cover;
+    z-index: 2;
+}
+
+
+.hero__video {
+    box-sizing: border-box;
+    width: 99.5%;
+    height: 77.6%;
+    margin-top: 55px;
+}
+
+.hero__free__h2 {
+    width: 100px;
+    height: 100px;
+    background: black;
+    border-radius: 50%;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    align-items: center;
+    margin-left: -90px;
+
+}
+
+
+
+
+
+
+
+}
