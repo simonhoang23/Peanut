@@ -27,6 +27,10 @@ section {
     padding-top: 30px;
 }
 
+.menu__mobile__container {
+    display: none;
+}
+
 .header__logo__flex__1 {
 
 }
@@ -546,8 +550,4 @@ flex-wrap: wrap;
     text-decoration: none;
     color: white;
     
-}
-
-.menu__mobile__container {
-    display: none;
 }
