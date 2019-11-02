@@ -338,6 +338,10 @@ margin: 10px 0 10px 120px;
     justify-content: center;
 }
 
+.hero__video__mobile{
+    display: none;
+}
+
 
 /* DISCOVER CHAT COMMUNITY GROUPS */
 

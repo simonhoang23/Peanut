@@ -203,5 +203,90 @@
 
 
 
+/* COMMUNITY REVIEW */
+
+
+.community__review__grid {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 7em; */
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.community__review__h3 {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    white-space: pre;
+    margin-bottom: 30px;
+}
+
+.community__review__anime {
+    display: inline-block;
+    width: 60px;
+    height: 38px;
+    vertical-align: middle;
+    margin-left: 12px;
+    background-image: url(https://www.peanut-app.io/assets/animations/small_grey-39796c614dc389db4433b09622d070e7df00252a84d66e46c0edb5835b81c1ee.gif);
+    background-size: cover;
+    margin-top: 10px;
+}
+
+.block__1 {
+  margin-bottom: 30px;
+  max-width: 293px;
+}
+
+
+.dot {
+  height: 18px;
+  width: 18px;
+  background-color: #dbdbdb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0px 0px 50px 10px;
+
+}
+
+/* CLIENT LOGO */
+
+.client__logos__container {
+  margin-bottom: 80px;
+}
+
+.client__logos__grid {
+  display: flex;
+ justify-content: center;
+}
+
+.client__logo__image__size {
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+/* VIDEO HOW TO ADD A PICTURE FRAME ON VIDEO */
+
+.video__1 {
+  margin: 80px;
+  display: flex;
+  justify-content: center;
+  display: none;
+  
+}
+
+.video__mobile {
+  display: block;
+  margin: 80px;
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+}
+
 
 }
