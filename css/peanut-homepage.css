@@ -338,7 +338,7 @@ margin: 10px 0 10px 120px;
     justify-content: center;
 }
 
-.hero__video__mobile{
+.video__mobile {
     display: none;
 }
 
@@ -416,6 +416,11 @@ flex-wrap: wrap;
     text-align: center;
     width: 1010px;
     line-height: 1.1;
+}
+
+.testimonials__name {
+    font-size: 32px; 
+    font-weight: 300;
 }
 
 .carousel__indicators__2 {

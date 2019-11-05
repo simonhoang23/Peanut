@@ -184,29 +184,25 @@
     margin-left: -55px;
   }
 
-/* COMMUNITY REVIEW */
+  /* COMMUNITY REVIEW */
 
-.community__review__container {
-    
-  margin-top: 200px;
-}
+  .community__review__container {
+    margin-top: 200px;
+  }
 
-.community__review__grid {
-  /* display: grid;
+  .community__review__grid {
+    /* display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 7em; */
-  display: flex;
-  justify-content: space-between;
-  box-sizing: border-box;
-  flex-wrap: wrap;
-}
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+  }
 
+  /* COMMUNITY REVIEW */
 
-
-/* COMMUNITY REVIEW */
-
-
-.community__review__grid {
+  .community__review__grid {
     /* display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 7em; */
@@ -214,9 +210,9 @@
     justify-content: center;
     box-sizing: border-box;
     flex-wrap: wrap;
-}
+  }
 
-.community__review__h3 {
+  .community__review__h3 {
     display: flex;
     justify-content: center;
     flex-flow: wrap;
@@ -225,9 +221,9 @@
     font-weight: bold;
     white-space: pre;
     margin-bottom: 30px;
-}
+  }
 
-.community__review__anime {
+  .community__review__anime {
     display: inline-block;
     width: 60px;
     height: 38px;
@@ -236,57 +232,261 @@
     background-image: url(https://www.peanut-app.io/assets/animations/small_grey-39796c614dc389db4433b09622d070e7df00252a84d66e46c0edb5835b81c1ee.gif);
     background-size: cover;
     margin-top: 10px;
-}
+  }
 
-.block__1 {
-  margin-bottom: 30px;
-  max-width: 293px;
-}
+  .block__1 {
+    margin-bottom: 30px;
+    max-width: 293px;
+  }
 
+  .dot {
+    height: 18px;
+    width: 18px;
+    background-color: #dbdbdb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0px 0px 50px 10px;
+  }
 
-.dot {
-  height: 18px;
-  width: 18px;
-  background-color: #dbdbdb;
-  border-radius: 50%;
-  display: inline-block;
-  margin: 0px 0px 50px 10px;
+  /* CLIENT LOGO */
 
-}
+  .client__logos__container {
+    margin-bottom: 80px;
+  }
 
-/* CLIENT LOGO */
+  .client__logos__grid {
+    display: flex;
+    justify-content: center;
+  }
 
-.client__logos__container {
-  margin-bottom: 80px;
-}
+  .client__logo__image__size {
+    height: 30px;
+    margin-bottom: 10px;
+  }
 
-.client__logos__grid {
-  display: flex;
- justify-content: center;
-}
+  /* VIDEO HOW TO ADD A PICTURE FRAME ON VIDEO */
 
-.client__logo__image__size {
-  height: 30px;
-  margin-bottom: 10px;
-}
+  .video__1 {
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+    display: none;
+  }
 
-/* VIDEO HOW TO ADD A PICTURE FRAME ON VIDEO */
+  .video__mobile {
+    display: block;
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+  }
 
-.video__1 {
-  margin: 80px;
-  display: flex;
-  justify-content: center;
-  display: none;
-  
-}
+  /* DISCOVER CHAT COMMUNITY GROUPS */
 
-.video__mobile {
-  display: block;
-  margin: 80px;
-  display: flex;
-  justify-content: center;
-  margin-top: -30px;
-}
+  .discover__chat__community__groups__container {
+  }
 
+  /* HOW DO YOU CENTER CSS GRIDS? */
+  .discover__chat__community__groups__grids {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
 
+  .discover__chat__community__groups__width {
+    max-width: 450px;
+    margin-bottom: 100px;
+  }
+
+  .discover__chat__community__groups__h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .discover__chat__community__groups__p {
+    font-size: 19px;
+    margin: 10px 0 23px;
+    text-align: center;
+    line-height: 1.3;
+  }
+
+  /* FEATURED BY APPLE */
+
+  .featured__by__apple__container {
+  }
+
+  .featured__by__apple__flex {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+
+  .featured__by__apple__img {
+    width: 80%;
+  }
+
+  /* TESTIMONIALS */
+
+  .testimonials__container {
+    background-color: #f6cdcc;
+  }
+
+  .testimonials__flex {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0 0 0;
+  }
+
+  .testimonials__p {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.3;
+    padding: 0 10px;
+  }
+
+  .testimonials__name {
+    font-size: 25px;
+    font-weight: 300;
+  }
+
+  .carousel__indicators__2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .dot__2 {
+    height: 18px;
+    width: 18px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 50px 10px 50px 10px;
+  }
+
+  /* TESTIMONIAL 2 */
+
+  .testimonial__2__container {
+    background-color: #ffa9b5;
+    padding-top: 50px;
+    line-height: 1.2;
+  }
+
+  .testimonial__grid {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .testimonial__p__parent {
+    padding: 20px 0 0 0;
+    text-align: center;
+    max-width: 328px;
+  }
+
+  .testimonial__p__text {
+    font-weight: bold;
+    font-size: 32px;
+    padding: 0 10px;
+  }
+
+  .testimonial__logo {
+    width: 60%;
+    margin: 30px;
+  }
+
+  /* FOOTER */
+
+  .footer__colour {
+    background-color: #000;
+  }
+
+  .footer__container {
+    background-color: #000;
+    padding: 20px;
+  }
+
+  .footer__h2 {
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: 50px;
+  }
+
+  .footer__buttons {
+    
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .hero__apple__button__white {
+    background-color: #fff;
+    width: 170px;
+    height: 45px;
+    color: black;
+    border-radius: 5px;
+    padding: 22px 50px 0 50px;
+    border: solid #fff;
+    margin: 22px 13px 0 0;
+    text-decoration: none;
+  }
+
+  .hero__android__button__white {
+    background-color: #fff;
+    width: 170px;
+    height: 45px;
+    color: black;
+    border-radius: 5px;
+    padding: 22px 50px 0 50px;
+    border: solid #fff;
+  }
+
+  .footer__icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  .footer__icon__space {
+    padding-left: 20px;
+  }
+
+  .footer__icon__space.no__padding {
+    padding-left: 0;
+  }
+
+  /* FOOTER LINKS */
+
+  .footer__links {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    justify-content: center;
+    margin-bottom: 60px;
+    flex-wrap: nowrap;
+    text-align: center;
+    line-height: 2.3;
+  }
+
+  .footer__links__space {
+    padding-left: 0;
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+  }
+
+  .footer__links__space.no__space {
+    padding-left: 0;
+    line-height: 1.3;
+  }
+
+  .footer__links__space a {
+    padding-left: 0;
+    text-decoration: none;
+    color: white;
+  }
 }
