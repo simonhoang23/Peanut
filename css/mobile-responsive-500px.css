@@ -256,7 +256,9 @@
 
   .client__logos__grid {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    text-align: center;
+    flex-direction: column;
   }
 
   .client__logo__image__size {
