@@ -323,7 +323,7 @@ margin: 10px 0 10px 120px;
 .client__logos__grid {
     display: flex;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 .client__logo__image__size {
