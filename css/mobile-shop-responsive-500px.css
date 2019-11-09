@@ -33,11 +33,11 @@
     border-radius: 10px;
     position: absolute;
     top: 40px;
-    left: 280px;
     width: 10px;
     height: 10px;
     text-align: center;
     font-size: 11px;
+    margin-left: 10px;
   }
 
   .menu__mobile__cart__icon {
