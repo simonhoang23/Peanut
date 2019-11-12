@@ -41,7 +41,6 @@
   }
 
   .menu__mobile__cart__icon {
-
   }
 
   .logo__mobile__size {
@@ -58,35 +57,15 @@
     margin-top: 20px;
   }
 
-.mobile__hero__img {
-  
-}
+  .mobile__hero__img {
+    width: 150px;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-  
-
+  .mobile__hero__flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+  }
 
   .menu__nav__right {
   }
@@ -108,317 +87,67 @@
     height: 0;
   }
 
-  /* RIGHT IMAGES */
-
-  .hero__flex {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-    background-color: #ffa9b5;
-    padding-bottom: 50px;
-  }
-
-  .hero__h1 {
-    font-size: 50px;
-    font-weight: bold;
-    letter-spacing: -2.8px;
-    line-height: 0.96;
-    margin-left: 15px;
-    width: 300px;
-  }
-
-  .span__hero__h1 {
-    color: white;
-  }
-
-  .hero__p {
-    padding: 25px 0 25px 0;
-    font-size: 22px;
-    line-height: 1.36;
-    margin-left: 15px;
-  }
-
-  .hero__apple__button {
-    background-color: #fe5055;
-    width: 170px;
-    height: 45px;
-    color: white;
-    border-radius: 5px;
-    padding: 22px 50px 0px 50px;
-    border: solid #fe5055;
-    margin: 0 20px 0 0px;
-    text-decoration: none;
-    margin-left: 15px;
-  }
-
-  .hero__android__button {
-    background-color: #fe5055;
-    width: 170px;
-    height: 45px;
-    color: white;
-    border-radius: 5px;
-    padding: 22px 50px 0px 50px;
-    border: solid #fe5055;
-  }
-
-  .right__images {
-    display: flex;
-    align-items: center;
-    margin-top: 50px;
-  }
-
-  .hero__block__mockup {
-    width: 150px;
-    height: 308px;
-    background-image: url("https://www.peanut-app.io/images/home/hero-android.png");
-    background-size: cover;
-    margin-left: -70px;
-  }
-
-  .hero__block__mockup__2 {
-    width: 170px;
-    height: 350px;
-    box-sizing: border-box;
-    background-image: url("https://www.peanut-app.io/images/home/hero-android.png");
-    background-size: cover;
-    z-index: 2;
-  }
-
-  .hero__video {
-    box-sizing: border-box;
-    width: 99.5%;
-    height: 77.6%;
-    margin-top: 36px;
-  }
-
-  .hero__free__h2 {
-    width: 80px;
-    height: 80px;
-    background: black;
-    border-radius: 50%;
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-    padding: 10px;
-    display: flex;
-    align-self: flex-start;
-    justify-content: center;
-    align-items: center;
-    margin-left: -55px;
+  .mobile__hero__p {
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.3;
   }
 
   /* COMMUNITY REVIEW */
 
   .community__review__container {
-    margin-top: 200px;
+    border: 1px red solid;
   }
-
-  .community__review__grid {
-    /* display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 7em; */
-    display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
-    flex-wrap: wrap;
-  }
-
-  /* COMMUNITY REVIEW */
-
-  .community__review__grid {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 7em; */
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-    flex-wrap: wrap;
-  }
-
-  .community__review__h3 {
-    display: flex;
-    justify-content: center;
-    flex-flow: wrap;
-    align-items: center;
+  .community__review__title {
+    text-transform: uppercase;
+    text-align: center;
     font-size: 24px;
     font-weight: bold;
-    white-space: pre;
+    font-style: oblique;
     margin-bottom: 30px;
+    margin-top: 100px;
   }
 
-  .community__review__anime {
-    display: inline-block;
-    width: 60px;
-    height: 38px;
-    vertical-align: middle;
-    margin-left: 12px;
-    background-image: url(https://www.peanut-app.io/assets/animations/small_grey-39796c614dc389db4433b09622d070e7df00252a84d66e46c0edb5835b81c1ee.gif);
-    background-size: cover;
+  .items__img {
+    width: 290px;
+  }
+
+  .items__grid {
+    display: flex;
+    justify-content: center;
+  }
+
+  .items__block__1 {
+  }
+
+
+
+  .items__a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    
+  }
+
+
+  .items__h3 {
+    text-align: center;
+    padding: 10px;
     margin-top: 10px;
+    font-size: 18px;
   }
 
-  .block__1 {
-    margin-bottom: 30px;
-    max-width: 293px;
-  }
-
-  .dot {
-    height: 18px;
-    width: 18px;
-    background-color: #dbdbdb;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 0px 0px 50px 10px;
-  }
-
-  /* CLIENT LOGO */
-
-  .client__logos__container {
-    margin-bottom: 80px;
-  }
-
-  .client__logos__grid {
-    display: flex;
-    justify-content: center;
-  }
-
-  .client__logo__image__size {
-    height: 30px;
-    margin-bottom: 10px;
-  }
-
-  /* VIDEO HOW TO ADD A PICTURE FRAME ON VIDEO */
-
-  .video__1 {
-    margin: 80px;
-    display: flex;
-    justify-content: center;
-    display: none;
-  }
-
-  .video__mobile {
-    display: block;
-    margin: 80px;
-    display: flex;
-    justify-content: center;
-    margin-top: -30px;
-  }
-
-  /* DISCOVER CHAT COMMUNITY GROUPS */
-
-  .discover__chat__community__groups__container {
-  }
-
-  /* HOW DO YOU CENTER CSS GRIDS? */
-  .discover__chat__community__groups__grids {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-  }
-
-  .discover__chat__community__groups__width {
-    max-width: 450px;
-    margin-bottom: 100px;
-  }
-
-  .discover__chat__community__groups__h1 {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 10px;
+  .items__p {
     text-align: center;
+    padding: 10px;
+    font-size: 15px;
   }
 
-  .discover__chat__community__groups__p {
-    font-size: 19px;
-    margin: 10px 0 23px;
+  .items__p__2 {
     text-align: center;
-    line-height: 1.3;
-  }
-
-  /* FEATURED BY APPLE */
-
-  .featured__by__apple__container {
-  }
-
-  .featured__by__apple__flex {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
-  }
-
-  .featured__by__apple__img {
-    width: 80%;
-  }
-
-  /* TESTIMONIALS */
-
-  .testimonials__container {
-    background-color: #f6cdcc;
-  }
-
-  .testimonials__flex {
-    display: flex;
-    justify-content: center;
-    padding: 80px 0 0 0;
-  }
-
-  .testimonials__p {
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    line-height: 1.3;
-    padding: 0 10px;
-  }
-
-  .testimonials__name {
-    font-size: 25px;
-    font-weight: 300;
-  }
-
-  .carousel__indicators__2 {
-    display: flex;
-    justify-content: center;
-  }
-
-  .dot__2 {
-    height: 18px;
-    width: 18px;
-    background-color: white;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 50px 10px 50px 10px;
-  }
-
-  /* TESTIMONIAL 2 */
-
-  .testimonial__2__container {
-    background-color: #ffa9b5;
-    padding-top: 50px;
-    line-height: 1.2;
-  }
-
-  .testimonial__grid {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-  }
-
-  .testimonial__p__parent {
-    padding: 20px 0 0 0;
-    text-align: center;
-    max-width: 328px;
-  }
-
-  .testimonial__p__text {
-    font-weight: bold;
-    font-size: 32px;
-    padding: 0 10px;
-  }
-
-  .testimonial__logo {
-    width: 60%;
-    margin: 30px;
+    padding: 10px;
+    margin-bottom: 50px;
+    font-size: 12px;
   }
 
   /* FOOTER */
@@ -441,7 +170,6 @@
   }
 
   .footer__buttons {
-    
     text-align: center;
     margin-bottom: 50px;
   }
