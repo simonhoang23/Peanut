@@ -1,4 +1,12 @@
 @media only screen and (max-width: 500px) {
+  
+  /* MOBILE WIDTH SIZE */
+
+  section {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
   .menu__mobile__container {
     display: block;
     background-color: ;
@@ -7,6 +15,7 @@
     height: 80px;
     align-items: center;
   }
+
 
   .header__wrap {
     display: flex;
@@ -114,10 +123,15 @@
 
   .items__grid {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
   }
 
   .items__block__1 {
+    display: flex;
+    justify-content: center;
+}
+
+
   }
 
 
