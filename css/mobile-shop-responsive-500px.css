@@ -1,5 +1,21 @@
 @media only screen and (max-width: 500px) {
+
+  /* DEFINE VARIABLES*/
   
+  :root {
+    --main__background__colour:  #f6cdcc;
+    --main__text__colour: #000;
+    --main__line__height: 1.3;
+  }
+  
+
+body {
+  color: var(--main__text__colour);
+  line-height: var(--main__line__height);
+}
+
+
+
   /* MOBILE WIDTH SIZE */
 
   section {
@@ -26,15 +42,15 @@
   }
 
   .logo {
-    color: #000;
+    color: black;
     margin: 0;
     display: none;
   }
 
-  .logo__mobile {
+ .logo__mobile {
     display: block;
-    color: #000;
-  }
+    color: var(--main__text__colour);
+  } 
 
   .menu__mobile__cart__number {
     padding: 5px;
@@ -62,7 +78,7 @@
   }
 
   .hr {
-    border-top: 3px black solid;
+    border-top: 3px solid black;
     margin-top: 20px;
   }
 
@@ -88,7 +104,7 @@
   .header__menu__nav__li a {
     padding-right: 20px;
     text-decoration: none;
-    color: black;
+    color: var(--main__text__colour);
     font-size: 15px;
   }
 
@@ -100,12 +116,13 @@
     font-size: 17px;
     text-align: center;
     line-height: 1.3;
+    color: var(--main__text__colour);
   }
 
   /* COMMUNITY REVIEW */
 
   .community__review__container {
-    border: 1px red solid;
+    
   }
   .community__review__title {
     text-transform: uppercase;
@@ -115,6 +132,7 @@
     font-style: oblique;
     margin-bottom: 30px;
     margin-top: 100px;
+    color: var(--main__text__colour);
   }
 
   .items__img {
@@ -131,14 +149,9 @@
     justify-content: center;
 }
 
-
-  }
-
-
-
   .items__a {
     text-decoration: none;
-    color: black;
+    color: var(--main__text__colour);
     font-size: 15px;
     
   }
@@ -155,6 +168,7 @@
     text-align: center;
     padding: 10px;
     font-size: 15px;
+    color: var(--main__text__colour);
   }
 
   .items__p__2 {
@@ -164,51 +178,89 @@
     font-size: 12px;
   }
 
-  /* FOOTER */
+  /* DOWNLOAD */
 
-  .footer__colour {
-    background-color: #000;
+  .download__container {
+    
+    
   }
 
-  .footer__container {
-    background-color: #000;
-    padding: 20px;
+  .download__peanut__icon {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding-top: 60px;
+  }
+
+  .download__peanut__icon__size {
+
+  }
+
+  .download__colour {
+    background-color: var(--main__background__colour);
+    
+
+  }
+
+  .logo__mobile__footer {
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+  } 
+
+  .logo__mobile__size {
+    text-align: center;
+    padding-top: 25px;
   }
 
   .footer__h2 {
     font-weight: bold;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 40px;
     text-align: center;
-    margin: 50px;
+    margin: 30px;
+    font-style: italic;
+  }
+
+  .download__p {
+    margin: 30px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.3;
   }
 
   .footer__buttons {
     text-align: center;
-    margin-bottom: 50px;
+    
   }
 
   .hero__apple__button__white {
-    background-color: #fff;
+    background-color: #000;
     width: 170px;
     height: 45px;
-    color: black;
+    color: white;
     border-radius: 5px;
     padding: 22px 50px 0 50px;
-    border: solid #fff;
+    border: solid #000;
     margin: 22px 13px 0 0;
     text-decoration: none;
   }
 
   .hero__android__button__white {
-    background-color: #fff;
+    background-color: #000;
     width: 170px;
     height: 45px;
-    color: black;
+    color: white;
     border-radius: 5px;
     padding: 22px 50px 0 50px;
-    border: solid #fff;
+    border: solid #000;
   }
+
+ 
+
+
+
+  /* FOOTER LINKS */
 
   .footer__icons {
     display: flex;
@@ -224,7 +276,14 @@
     padding-left: 0;
   }
 
-  /* FOOTER LINKS */
+  .footer__colour {
+    background-color: #000;
+  }
+
+  .footer__container {
+    background-color: #000;
+    padding: 20px;
+  }
 
   .footer__links {
     color: white;
@@ -232,7 +291,7 @@
     font-weight: bold;
     display: block;
     justify-content: center;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     flex-wrap: nowrap;
     text-align: center;
     line-height: 2.3;
