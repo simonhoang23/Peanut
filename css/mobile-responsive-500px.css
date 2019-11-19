@@ -16,6 +16,11 @@
     padding-top: 0;
   }
 
+  .header__colour {
+    background-color: #ffa9b5;
+    padding: 0 0;
+}
+
   .logo {
     color: #000;
     margin: 0;
