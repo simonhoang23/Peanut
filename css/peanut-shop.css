@@ -21,7 +21,6 @@ section {
 
 .header__container {
   height: 110px;
-  border: 1px red solid;
   padding: 0 20px;
 }
 
@@ -33,7 +32,7 @@ section {
 }
 
 .header__logo__width{
-    width: 500px;
+    width: 550px;
 }
 
 .header__logo {
@@ -52,8 +51,16 @@ section {
   align-items: center;
 }
 
+.nav__icons__space {
+    padding-right: 20px;
+}
+
+.nav__icons__more__space {
+    padding-right: 35px;
+}
+
 .icon__size {
-  width: 35px;
+  width: 25px;
 }
 
 .menu__desktop__cart__number {
@@ -61,8 +68,8 @@ section {
     background-color: #f6cdcc;
     border-radius: 10px;
     position: absolute;
-    top: 53px;
-    left: 310px;
+    top: 50px;
+    left: 1560px;
     width: 10px;
     height: 10px;
     text-align: center;
