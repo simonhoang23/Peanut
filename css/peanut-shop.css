@@ -22,25 +22,63 @@ section {
 .header__container {
   height: 110px;
   border: 1px red solid;
+  padding: 0 20px;
 }
 
 .header__logo__main {
-
 }
-
 
 .menu__mobile__container {
   display: none;
 }
 
+.header__logo__width{
+    width: 500px;
+}
 
 .header__logo {
   width: 100px;
+  padding-top: 15px;
+}
+
+.header__wrap {
+ display: flex;
+ justify-content: flex-end;
+
 }
 
 .nav__icons__flex {
-    
+  display: flex;
+  align-items: center;
 }
+
+.icon__size {
+  width: 35px;
+}
+
+.menu__desktop__cart__number {
+    padding: 5px;
+    background-color: #f6cdcc;
+    border-radius: 10px;
+    position: absolute;
+    top: 53px;
+    left: 310px;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    font-size: 11px;
+    margin-left: 10px;
+  }
+
+.nav__icons__2__container {
+    padding: 0 0 0 50px;
+}
+
+
+
+
+
+
 
 .hr {
   border-top: 3px solid black;
