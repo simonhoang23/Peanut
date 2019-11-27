@@ -122,6 +122,20 @@ body {
     color: var(--main__text__colour);
   }
 
+  .nav__main__flex {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    display: none;
+  }
+  
+  .nav__main__li a {
+      text-decoration: none;
+      color: var(--main__text__colour);
+      padding-right: 40px;
+      display: none;
+  }
+
   /* COMMUNITY REVIEW */
 
   .community__review__container {

@@ -31,8 +31,8 @@ section {
   display: none;
 }
 
-.header__logo__width{
-    width: 550px;
+.header__logo__width {
+  width: 550px;
 }
 
 .header__logo {
@@ -41,9 +41,8 @@ section {
 }
 
 .header__wrap {
- display: flex;
- justify-content: flex-end;
-
+  display: flex;
+  justify-content: flex-end;
 }
 
 .nav__icons__flex {
@@ -52,11 +51,11 @@ section {
 }
 
 .nav__icons__space {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 .nav__icons__more__space {
-    padding-right: 35px;
+  padding-right: 35px;
 }
 
 .icon__size {
@@ -64,33 +63,50 @@ section {
 }
 
 .menu__desktop__cart__number {
-    padding: 5px;
-    background-color: #f6cdcc;
-    border-radius: 10px;
-    position: absolute;
-    top: 50px;
-    left: 1560px;
-    width: 10px;
-    height: 10px;
-    text-align: center;
-    font-size: 11px;
-    margin-left: 10px;
-  }
-
-.nav__icons__2__container {
-    padding: 0 0 0 50px;
+  padding: 5px;
+  background-color: #f6cdcc;
+  border-radius: 10px;
+  position: absolute;
+  top: 50px;
+  left: 1560px;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  font-size: 11px;
+  margin-left: 10px;
 }
 
-
-
-
-
-
+.nav__icons__2__container {
+  padding: 0 0 0 50px;
+}
 
 .hr {
   border-top: 3px solid black;
   margin-top: 20px;
 }
+
+/* NAV MAIN */
+
+.nav__main__container {
+  
+}
+
+.nav__main__flex {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.nav__main__li a {
+    text-decoration: none;
+    color: var(--main__text__colour);
+    padding-right: 40px;
+}
+
+.nav__main__li a:hover {
+    text-decoration: underline;
+}
+    
 
 /* HERO */
 
@@ -99,96 +115,36 @@ section {
   padding-top: 100px;
 }
 
-.hero__flex {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
+.mobile__hero__flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
 
-.hero__h1 {
-  font-size: 78px;
-  font-weight: bold;
-  letter-spacing: -2.8px;
-  line-height: 0.96;
-  margin: ;
-}
+.mobile__hero__img {
+    width: 150px;
+  }
 
-.span__hero__h1 {
-  color: white;
-}
+  .mobile__hero__p {
+    font-size: 30px;
+    text-align: center;
+    color: var(--main__text__colour);
+    margin: 20px;
+  }
 
-.hero__p {
-  padding: 25px 0 25px 0;
-  font-size: 22px;
-  line-height: 1.36;
-}
 
-.hero__apple__button {
-  background-color: #fe5055;
-  width: 170px;
-  height: 45px;
-  color: white;
-  border-radius: 5px;
-  padding: 22px 50px 0px 50px;
-  border: solid #fe5055;
-  margin: 0 20px 0 0px;
-  text-decoration: none;
-}
+  .community__review__title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: oblique;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    color: var(--main__text__colour);
+  }
 
-.hero__android__button {
-  background-color: #fe5055;
-  width: 170px;
-  height: 45px;
-  color: white;
-  border-radius: 5px;
-  padding: 22px 50px 0px 50px;
-  border: solid #fe5055;
-}
 
-.right__images {
-  display: flex;
-  align-items: center;
-}
-
-.hero__block__mockup {
-  width: 227px;
-  height: 465px;
-  background-image: url("https://www.peanut-app.io/images/home/hero-android.png");
-  background-size: cover;
-  margin-left: -100px;
-}
-
-.hero__block__mockup__2 {
-  width: 260px;
-  height: 532px;
-  box-sizing: border-box;
-  background-image: url("https://www.peanut-app.io/images/home/hero-android.png");
-  background-size: cover;
-  z-index: 2;
-}
-
-.hero__video {
-  box-sizing: border-box;
-  width: 99.5%;
-  height: 77.6%;
-  margin-top: 55px;
-}
-
-.hero__free__h2 {
-  width: 100px;
-  height: 100px;
-  background: black;
-  border-radius: 50%;
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-  padding: 10px;
-  display: flex;
-  align-self: flex-start;
-  justify-content: center;
-  align-items: center;
-  margin-left: -90px;
-}
 
 /* COMMUNITY REVIEW */
 
