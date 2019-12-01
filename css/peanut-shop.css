@@ -81,6 +81,30 @@ section {
   margin-top: 20px;
 }
 
+/* NAV 2 MOBILE */
+
+.nav__2__container {
+    
+}
+
+.nav__2__flex {
+  
+}
+
+.nav__2__li a {
+
+}
+
+.nav__2__li a:hover {
+
+}
+
+
+
+
+/* MOBILE HERO */
+
+
 .mobile__hero__img {
   width: 150px;
 }
@@ -314,6 +338,8 @@ section {
   color: white;
 }
 
+
+
 /* DESKTOP SCREEN SIZE */
 
 @media only screen and (max-width: 1900px) {
@@ -392,14 +418,9 @@ section {
     margin-top: 20px;
   }
 
-
-
-
   /* NAV 2 */
 
   .nav__2__container {
-      
-      
   }
 
   .nav__2__flex {
@@ -417,9 +438,6 @@ section {
   .nav__2__li a:hover {
     text-decoration: underline;
   }
-
-
-
 
   /* HERO */
 
@@ -456,26 +474,23 @@ section {
     color: var(--main__text__colour);
   }
 
-
   /* COMMUNITY REVIEW */
 
-.community__review__container {
-}
+  .community__review__container {
+  }
 
+  .community__review__title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: oblique;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    color: var(--main__text__colour);
+  }
 
-.community__review__title {
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 24px;
-  font-weight: bold;
-  font-style: oblique;
-  margin-bottom: 30px;
-  margin-top: 100px;
-  color: var(--main__text__colour);
-}
-
-
-.items__grid {
+  .items__grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 30px;
@@ -486,48 +501,41 @@ section {
     flex-wrap: wrap; */
   }
 
+  .items__img {
+    width: 100%;
+  }
 
-.items__img {
-  width: 100%;
-}
-
-
-
-.items__block__1 {
-  /* display: flex;
+  .items__block__1 {
+    /* display: flex;
   justify-content: center; */
-}
+  }
 
-.items__a {
-  text-decoration: none;
-  color: var(--main__text__colour);
-  font-size: 15px;
-}
+  .items__a {
+    text-decoration: none;
+    color: var(--main__text__colour);
+    font-size: 15px;
+  }
 
-.items__h3 {
-  text-align: center;
-  padding: 10px;
-  margin-top: 10px;
-  font-size: 18px;
-}
+  .items__h3 {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
 
-.items__p {
-  text-align: center;
-  padding: 10px;
-  font-size: 15px;
-  color: var(--main__text__colour);
-}
+  .items__p {
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    color: var(--main__text__colour);
+  }
 
-.items__p__2 {
-  text-align: center;
-  padding: 10px;
-  margin-bottom: 50px;
-  font-size: 12px;
-}
-
-
-
-
+  .items__p__2 {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 50px;
+    font-size: 12px;
+  }
 
   /* FOOTER */
 
