@@ -84,7 +84,7 @@ section {
 /* NAV 2 MOBILE */
 
 .nav__2__container {
-    
+    display: none;
 }
 
 .nav__2__flex {
@@ -340,9 +340,9 @@ section {
 
 
 
-/* DESKTOP SCREEN SIZE */
+/* DESKTOP SCREEN SIZE - min-width: 720px DESKTOP SIZE STARTS HERE (720PX) */
 
-@media only screen and (max-width: 1900px) {
+@media only screen and (min-width: 720px) {
   section {
     max-width: 1500px;
     margin: 0 auto;
@@ -421,6 +421,7 @@ section {
   /* NAV 2 */
 
   .nav__2__container {
+    display: initial;
   }
 
   .nav__2__flex {
